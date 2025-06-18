@@ -1,5 +1,6 @@
 #!/bin/sh
 set -e
+set -x
 
 # Remplace les variables dans le template
 envsubst < ./config/mesh-template.yaml > ./mesh.yaml
