@@ -1,0 +1,15 @@
+sources:
+  - name: nocodb
+    handler:
+      openapi:
+        source: "${NOCODB_URL}/api-docs/json"
+        baseUrl: "${NOCODB_URL}"
+        operationHeaders:
+          accept: "application/json"
+          authorization: "Bearer ${NOCODB_TOKEN}"
+        selectQueryOperations: true
+        selectMutationOperations: false
+
+serve:
+  port: ${MESH_PORT:-4000}
+  playground: true

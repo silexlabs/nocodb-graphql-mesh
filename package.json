@@ -1,0 +1,11 @@
+{
+  "name": "nocodb-graphql-mesh",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node entrypoint.sh"
+  },
+  "dependencies": {
+    "@graphql-mesh/cli": "^0.57.0",
+    "@graphql-mesh/openapi": "^0.57.0"
+  }
+}
