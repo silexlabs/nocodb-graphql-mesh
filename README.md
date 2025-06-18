@@ -29,8 +29,8 @@ Designed for **easy deployment with CapRover** or Docker.
 ```bash
 docker run -e NOCODB_URL=https://nocodb.example.com \
   -p 4000:4000 \
-  ghcr.io/internet2000/nocodb-graphql-mesh:latest
+  silexlabs/nocodb-graphql-mesh:latest
 ```
 
 GraphQL Playground is available at:  
-`http://localhost:4000/graphql`
+`http://localhost:400 0/graphql`
